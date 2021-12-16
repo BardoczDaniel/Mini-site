@@ -1,0 +1,98 @@
+section{
+    display: inline-block;
+    width: 200px;
+    padding:  auto;
+    margin-right: 8px;
+    vertical-align: top;
+    position: relative;
+    top:50px;
+    
+}
+
+aside{
+    display: inline-block;
+    width: 700px;
+    padding: 0px 8px 0px 16px;
+    margin: auto;
+    border-left: solid rgb(255, 255, 255) 1px;
+    position: relative;
+    left: 250px;
+    top: 50px;
+}
+
+
+
+body{
+
+    width: 960px;
+
+
+    background-image: url("../images/header.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+ul{
+    
+  
+    font-family: "My font";
+
+}
+
+
+p{
+    text-indent: 10%;
+    font-family: "My font";
+    text-align: justify;
+    font-style: normal;
+    
+}
+
+@font-face {
+    font-family: "My font";
+    src: url("../fonts/hermandec.ttf");
+}
+
+
+h1{
+    text-align: center;
+    position: relative;
+    left:350px;
+    font-family: "My font";
+}
+
+footer {
+    padding: 16px 0 16px 0;
+    font-family: "My font";
+    position: relative;
+    top: 50px;
+
+
+}
+
+h2,h3{
+    font-family: "My font";
+}
+
+
+table{
+    font-family: "My font",sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+}
+
+th{
+    padding: 18px;
+}
+
+td{
+    padding: 12px;
+}
+
+td,th{
+    border: solid rgb(255, 252, 252) 1px;
+}
+
